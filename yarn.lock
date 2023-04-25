@@ -1427,15 +1427,15 @@
     debug "^4.1.1"
     picocolors "^1.0.0"
 
-"@linaria/rollup@4.3.2":
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/@linaria/rollup/-/rollup-4.3.2.tgz#f96d4f1fd8a2a5ab52b0200753f1ea0b3f937281"
-  integrity sha512-6Z3Ogt5P1ux0hGIoANL9olyjsay3Yqlw9MTXuFNweg8KTOhS/caWe3l+YzU07Fh8MLyq3vxzy20kfL0P6JvsjQ==
+"@linaria/rollup@4.3.7":
+  version "4.3.7"
+  resolved "https://registry.yarnpkg.com/@linaria/rollup/-/rollup-4.3.7.tgz#0697a7e3b2c9ff8364c1c8f15d9bae0af05ea101"
+  integrity sha512-nzj+jANEw0HJlLAtxouwfAF6Suo/MKMaTpPR3enrqVXgg0bQwrLoKI9cmr6RMXXKvaJdax+3J63vscSYFDgmPQ==
   dependencies:
-    "@linaria/babel-preset" "^4.3.3"
+    "@linaria/babel-preset" "^4.4.4"
     "@linaria/logger" "^4.0.0"
-    "@linaria/utils" "^4.3.0"
-    "@linaria/vite" "^4.2.5"
+    "@linaria/utils" "^4.3.3"
+    "@linaria/vite" "^4.2.10"
     "@rollup/pluginutils" "^4.1.0"
 
 "@linaria/shaker@4.2.7":
@@ -1526,7 +1526,7 @@
     "@linaria/utils" "^4.3.0"
     "@rollup/pluginutils" "^4.1.0"
 
-"@linaria/vite@^4.2.5":
+"@linaria/vite@^4.2.10":
   version "4.2.10"
   resolved "https://registry.yarnpkg.com/@linaria/vite/-/vite-4.2.10.tgz#2c354ef78b8760f23975774c265619c0ca26a8f7"
   integrity sha512-sbadCMfhtB2XiZREU1GWAorj/6MB3SjzgJZm6YTaqRpV26Q2Qci18GWVLKUJNNDp3b47DBc86Ezapu/EbY8UZA==

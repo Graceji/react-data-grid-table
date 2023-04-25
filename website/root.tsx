@@ -21,6 +21,7 @@ import MasterDetail from './demos/MasterDetail';
 import MillionCells from './demos/MillionCells';
 import NoRows from './demos/NoRows';
 import ResizableGrid from './demos/Resizable';
+import RowSpanning from './demos/RowSpanning';
 import RowsReordering from './demos/RowsReordering';
 import ScrollToRow from './demos/ScrollToRow';
 import TreeView from './demos/TreeView';
@@ -47,6 +48,7 @@ function Root() {
           <Route path="all-features" element={<AllFeatures direction={direction} />} />
           <Route path="cell-navigation" element={<CellNavigation direction={direction} />} />
           <Route path="column-spanning" element={<ColumnSpanning direction={direction} />} />
+          <Route path="row-spanning" element={<RowSpanning direction={direction} />} />
           <Route path="columns-reordering" element={<ColumnsReordering direction={direction} />} />
           <Route path="context-menu" element={<ContextMenuDemo direction={direction} />} />
           <Route

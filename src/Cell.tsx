@@ -90,17 +90,20 @@ function Cell<R, SR>({
     onRowChange(column, newRow);
   }
 
+  const rowSpan = column.rowSpan?.({ type: 'ROW', row }) ?? undefined;
+
   return (
     <div
       role="gridcell"
       aria-colindex={column.idx + 1} // aria-colindex is 1-based
       aria-selected={isCellSelected}
       aria-colspan={colSpan}
+      aria-rowspan={rowSpan}
       aria-readonly={!isEditable || undefined}
       ref={ref}
       tabIndex={tabIndex}
       className={className}
-      style={getCellStyle(column, colSpan)}
+      style={getCellStyle(column, colSpan, rowSpan)}
       onClick={handleClick}
       onDoubleClick={handleDoubleClick}
       onContextMenu={handleContextMenu}

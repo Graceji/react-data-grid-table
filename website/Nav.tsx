@@ -87,6 +87,9 @@ export default function Nav({ direction, onDirectionChange }: Props) {
       <NavLink to="/column-spanning" end className={getActiveClassname}>
         Column Spanning
       </NavLink>
+      <NavLink to="/row-spanning" end className={getActiveClassname}>
+        Row Spanning
+      </NavLink>
       <NavLink to="/columns-reordering" end className={getActiveClassname}>
         Columns Reordering
       </NavLink>

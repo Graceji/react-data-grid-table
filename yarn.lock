@@ -1401,23 +1401,14 @@
     source-map "^0.7.3"
     stylis "^3.5.4"
 
-"@linaria/core@4.2.5":
-  version "4.2.5"
-  resolved "https://registry.yarnpkg.com/@linaria/core/-/core-4.2.5.tgz#0e8a54692556a08c209ac44e33aba062cb60a9b3"
-  integrity sha512-cRjF0utcr5yZa/aMdzW2aupSzlSwivfPWbjJGu/vQ8bKCTnuUnC9M+SrujnSQqQ7/kIHeZ98LfMxbfN3ZX6DPg==
+"@linaria/core@4.2.10", "@linaria/core@^4.2.5", "@linaria/core@^4.2.9":
+  version "4.2.10"
+  resolved "https://registry.yarnpkg.com/@linaria/core/-/core-4.2.10.tgz#3f8d45b20205c167d326d558ee9a926039483767"
+  integrity sha512-S1W01W7L4SQnGpWzp8awyCpPIYUOEJ+OLjjXqKpIXOU+ozPwBt86Mjjdas9aZccVhNBWDja74cMCUAVp8yUpDQ==
   dependencies:
     "@linaria/logger" "^4.0.0"
-    "@linaria/tags" "^4.3.0"
-    "@linaria/utils" "^4.3.0"
-
-"@linaria/core@^4.2.5", "@linaria/core@^4.2.9":
-  version "4.2.9"
-  resolved "https://registry.yarnpkg.com/@linaria/core/-/core-4.2.9.tgz#4917bde18d064a29cff4fd86aa99621f953a2a2c"
-  integrity sha512-ELcu37VNVOT/PU0L6WDIN+aLzNFyJrqoBYT0CucGOCAmODbojUMCv8oJYRbWzA3N34w1t199dN4UFdfRWFG2rg==
-  dependencies:
-    "@linaria/logger" "^4.0.0"
-    "@linaria/tags" "^4.3.4"
-    "@linaria/utils" "^4.3.3"
+    "@linaria/tags" "^4.3.5"
+    "@linaria/utils" "^4.3.4"
 
 "@linaria/logger@4.0.0", "@linaria/logger@^4.0.0":
   version "4.0.0"
@@ -1479,14 +1470,14 @@
     "@linaria/logger" "^4.0.0"
     "@linaria/utils" "^4.3.0"
 
-"@linaria/tags@^4.3.0", "@linaria/tags@^4.3.4":
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/@linaria/tags/-/tags-4.3.4.tgz#3c98108e4b48b8413662b4c62c2b2abdebacaca4"
-  integrity sha512-W8zaLKtC4YFCwkZ9DMu2enCiD/zGyYmFSTzEvJP7ZycdftMizoOrWNOyF9kITyjGdq+jZvAXJz0BZDT6axgIRg==
+"@linaria/tags@^4.3.0", "@linaria/tags@^4.3.4", "@linaria/tags@^4.3.5":
+  version "4.3.5"
+  resolved "https://registry.yarnpkg.com/@linaria/tags/-/tags-4.3.5.tgz#bf2e070d11179addf2f27a66cd29d8192e71ca89"
+  integrity sha512-PgaIi8Vv89YOjc6rpKL/uPg2w4k0rAwAYxcqeXqzKqsEAste5rgB8xp1/KUOG0oAOkPd3MRL6Duj+m0ZwJ3g+g==
   dependencies:
     "@babel/generator" "^7.20.4"
     "@linaria/logger" "^4.0.0"
-    "@linaria/utils" "^4.3.3"
+    "@linaria/utils" "^4.3.4"
 
 "@linaria/utils@4.3.0":
   version "4.3.0"
@@ -1502,10 +1493,10 @@
     "@linaria/logger" "^4.0.0"
     babel-merge "^3.0.0"
 
-"@linaria/utils@^4.3.0", "@linaria/utils@^4.3.3":
-  version "4.3.3"
-  resolved "https://registry.yarnpkg.com/@linaria/utils/-/utils-4.3.3.tgz#9f66ae41187e8a2f2cc3471b44935128ebd1dab3"
-  integrity sha512-xSe/tod9A44aIMbtds9fWLNe2TT080lLdRSaoqX+UHsBWqClkrw5cXEt3lm8Vr4hZiXT2r/1AldjuHb9YbUlMg==
+"@linaria/utils@^4.3.0", "@linaria/utils@^4.3.3", "@linaria/utils@^4.3.4":
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/@linaria/utils/-/utils-4.3.4.tgz#860db9131e498b62510e49dc6fd4a8f0ed44bf4d"
+  integrity sha512-vt6WJG54n+KANaqxOfzIIU7aSfFHEWFbnGLsgxL7nASHqO0zezrNA2y2Rrp80zSeTW+wSpbmDM4uJyC9UW1qoA==
   dependencies:
     "@babel/core" "^7.20.2"
     "@babel/plugin-proposal-export-namespace-from" "^7.18.9"

@@ -1401,28 +1401,27 @@
     source-map "^0.7.3"
     stylis "^3.5.4"
 
-"@linaria/core@4.2.5":
-  version "4.2.5"
-  resolved "https://registry.yarnpkg.com/@linaria/core/-/core-4.2.5.tgz#0e8a54692556a08c209ac44e33aba062cb60a9b3"
-  integrity sha512-cRjF0utcr5yZa/aMdzW2aupSzlSwivfPWbjJGu/vQ8bKCTnuUnC9M+SrujnSQqQ7/kIHeZ98LfMxbfN3ZX6DPg==
+"@linaria/core@4.5.2", "@linaria/core@^4.2.5", "@linaria/core@^4.2.9":
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/@linaria/core/-/core-4.5.2.tgz#688e941e97c428e548dae0db84ef9389b77cf950"
+  integrity sha512-fKBu2BjqLCFRUmOnKpXpZZp37gOJRs8vIXoE24dN8DED4Rz5gGE4MIcCb4iohHkvu6vOHC4dQRiSNXlIsSYQ9Q==
   dependencies:
-    "@linaria/logger" "^4.0.0"
-    "@linaria/tags" "^4.3.0"
-    "@linaria/utils" "^4.3.0"
+    "@linaria/logger" "^4.5.0"
+    "@linaria/tags" "^4.5.2"
+    "@linaria/utils" "^4.5.1"
 
-"@linaria/core@^4.2.5", "@linaria/core@^4.2.9":
-  version "4.2.9"
-  resolved "https://registry.yarnpkg.com/@linaria/core/-/core-4.2.9.tgz#4917bde18d064a29cff4fd86aa99621f953a2a2c"
-  integrity sha512-ELcu37VNVOT/PU0L6WDIN+aLzNFyJrqoBYT0CucGOCAmODbojUMCv8oJYRbWzA3N34w1t199dN4UFdfRWFG2rg==
-  dependencies:
-    "@linaria/logger" "^4.0.0"
-    "@linaria/tags" "^4.3.4"
-    "@linaria/utils" "^4.3.3"
-
-"@linaria/logger@4.0.0", "@linaria/logger@^4.0.0":
+"@linaria/logger@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@linaria/logger/-/logger-4.0.0.tgz#6f73eb3cc11d548967a7caf2e7997439e46fca0d"
   integrity sha512-YnBq0JlDWMEkTOK+tMo5yEVR0f5V//6qMLToGcLhTyM9g9i+IDFn51Z+5q2hLk7RdG4NBPgbcCXYi2w4RKsPeg==
+  dependencies:
+    debug "^4.1.1"
+    picocolors "^1.0.0"
+
+"@linaria/logger@^4.0.0", "@linaria/logger@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@linaria/logger/-/logger-4.5.0.tgz#e5de815ffe7806822f47a559a512b98f66acea13"
+  integrity sha512-XdQLk242Cpcsc9a3Cz1ktOE5ysTo2TpxdeFQEPwMm8Z/+F/S6ZxBDdHYJL09srXWz3hkJr3oS2FPuMZNH1HIxw==
   dependencies:
     debug "^4.1.1"
     picocolors "^1.0.0"
@@ -1479,14 +1478,14 @@
     "@linaria/logger" "^4.0.0"
     "@linaria/utils" "^4.3.0"
 
-"@linaria/tags@^4.3.0", "@linaria/tags@^4.3.4":
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/@linaria/tags/-/tags-4.3.4.tgz#3c98108e4b48b8413662b4c62c2b2abdebacaca4"
-  integrity sha512-W8zaLKtC4YFCwkZ9DMu2enCiD/zGyYmFSTzEvJP7ZycdftMizoOrWNOyF9kITyjGdq+jZvAXJz0BZDT6axgIRg==
+"@linaria/tags@^4.3.0", "@linaria/tags@^4.3.4", "@linaria/tags@^4.5.2":
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/@linaria/tags/-/tags-4.5.2.tgz#e62d67e4d2cf03c07beb3f64a75515398a4ec849"
+  integrity sha512-ougIJrket1Q1qBc/JlBBt63dzFZwrDxx51MsVeYQ0lagbfLLHCfdVKFrsQy2YBQkBFw5hAHDP9+0uPvBy662ng==
   dependencies:
     "@babel/generator" "^7.20.4"
-    "@linaria/logger" "^4.0.0"
-    "@linaria/utils" "^4.3.3"
+    "@linaria/logger" "^4.5.0"
+    "@linaria/utils" "^4.5.1"
 
 "@linaria/utils@4.3.0":
   version "4.3.0"
@@ -1502,10 +1501,10 @@
     "@linaria/logger" "^4.0.0"
     babel-merge "^3.0.0"
 
-"@linaria/utils@^4.3.0", "@linaria/utils@^4.3.3":
-  version "4.3.3"
-  resolved "https://registry.yarnpkg.com/@linaria/utils/-/utils-4.3.3.tgz#9f66ae41187e8a2f2cc3471b44935128ebd1dab3"
-  integrity sha512-xSe/tod9A44aIMbtds9fWLNe2TT080lLdRSaoqX+UHsBWqClkrw5cXEt3lm8Vr4hZiXT2r/1AldjuHb9YbUlMg==
+"@linaria/utils@^4.3.0", "@linaria/utils@^4.3.3", "@linaria/utils@^4.5.1":
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/@linaria/utils/-/utils-4.5.1.tgz#f221891191a3ddd35ea0b145afb12ad2002e67fa"
+  integrity sha512-BvVEDuwltfsia3tT72EFoqQvlkockii4rRdexBV5QOxmxVLFPo2jp+cqIybpa8aBtSpiflCdgwYvz+YlLR5ZCg==
   dependencies:
     "@babel/core" "^7.20.2"
     "@babel/plugin-proposal-export-namespace-from" "^7.18.9"
@@ -1513,8 +1512,9 @@
     "@babel/plugin-transform-modules-commonjs" "^7.19.6"
     "@babel/traverse" "^7.20.1"
     "@babel/types" "^7.20.2"
-    "@linaria/logger" "^4.0.0"
+    "@linaria/logger" "^4.5.0"
     babel-merge "^3.0.0"
+    find-up "^5.0.0"
 
 "@linaria/vite@4.2.5":
   version "4.2.5"

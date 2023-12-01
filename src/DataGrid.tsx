@@ -190,6 +190,7 @@ export interface DataGridProps<R, SR = unknown, K extends Key = Key> extends Sha
   /** @default 'ltr' */
   direction?: Maybe<Direction>;
   'data-testid'?: Maybe<string>;
+  editableRowIdxs?: Array<number>;
 }
 
 /**
@@ -247,7 +248,8 @@ function DataGrid<R, SR, K extends Key>(
     'aria-labelledby': ariaLabelledBy,
     'aria-describedby': ariaDescribedBy,
     'aria-rowcount': rawAriaRowCount,
-    'data-testid': testId
+    'data-testid': testId,
+    editableRowIdxs
   } = props;
 
   /**
@@ -871,7 +873,14 @@ function DataGrid<R, SR, K extends Key>(
   }
 
   function getCellEditor(rowIdx: number) {
-    if (selectedPosition.rowIdx !== rowIdx || selectedPosition.mode === 'SELECT') return;
+    // if (selectedPosition.rowIdx !== rowIdx || selectedPosition.mode === 'SELECT') return;
+
+    const baseOption = selectedPosition.mode === 'SELECT';
+
+    const editableOption = Array.isArray(editableRowIdxs)
+      ? !editableRowIdxs.includes(selectedPosition.rowIdx)
+      : selectedPosition.rowIdx !== rowIdx;
+    if (editableOption || baseOption) return;
 
     const { idx, row } = selectedPosition;
     const column = columns[idx];

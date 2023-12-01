@@ -51,7 +51,12 @@ function SortableHeaderCell<R, SR>({
 
   return (
     <span className={headerSortCellClassname}>
-      <span className={headerSortNameClassname}>{children}</span>
+      <span
+        className={headerSortNameClassname}
+        title={typeof children === 'string' ? children : undefined}
+      >
+        {children}
+      </span>
       <span>{renderSortStatus({ sortDirection, priority })}</span>
     </span>
   );
